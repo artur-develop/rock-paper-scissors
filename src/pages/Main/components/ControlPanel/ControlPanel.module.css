@@ -1,0 +1,31 @@
+.game{
+    width: calc(100% - 630px);
+    text-align: center;
+    padding: 5px;
+}
+
+.button {
+    margin: 5px;
+    padding: 7px;
+}
+
+.game > img{
+    width: 100px;
+}
+
+.game > .shape {
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.game > .shape:hover {
+    background: white;
+    filter: invert(100%);
+}
+
+.game > .shape:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,10 @@
+.winner {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--color-winner);
+    font-weight: bold;
+}
+
+.button {
+    padding: 7px;
+}

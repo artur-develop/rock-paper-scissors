@@ -1,0 +1,13 @@
+.playersList {
+    width: 300px;
+    padding: 5px;
+}
+
+.playerItem{
+    padding: 5px;
+}
+
+.playerItem > img {
+    vertical-align: middle;
+    padding-right: 10px;
+}

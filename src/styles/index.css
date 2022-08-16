@@ -1,0 +1,44 @@
+:root {
+    --color-winner: #ba7900;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px
+}
+
+.main {
+    margin-top: 10px;
+}
+
+.item{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itemCaption{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    text-transform: uppercase;
+    background: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+button:hover{
+    color: white;
+    background: black;
+}
